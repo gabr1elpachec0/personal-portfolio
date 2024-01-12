@@ -7,12 +7,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: '#111111',
-        purple: '#986DFF'
+        firstBackground: '#111111',
+        secondBackground: '#151515',
+        // purple: '#986DFF',
+        green: '#04D361',
       },
-      fontFamily: {
-        sora: ['Sora', 'sans-serif'],
-        saira: ['Saira', 'sans-serif']
+      fontFamily: {        
+        archivo: ['Archivo', 'sans-serif'],
       }
     },
   },

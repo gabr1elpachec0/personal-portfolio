@@ -1,8 +1,8 @@
 export function Main() {
   return (
-    <main className='flex flex-col items-center justify-center'>
-      <h1 className='text-[45px] font-bold font-saira'>Desenvolvedor <span className='text-purple'> FullStack</span></h1>
-      <h2 className='font-thin text-2xl'>Aqui você pode encontrar algumas informações sobre mim e alguns de meus projetos</h2>
-    </main>
+    <div className='flex flex-col text-center mt-[300px]'>
+      <h1 className='text-7xl font-bold font-archivo'>Desenvolvedor <span className='text-green'>Fullstack</span></h1>
+      <h2 className='mt-3 text-5xl font-archivo text-zinc-400'>Design, Frontend & Backend</h2>
+    </div>
   )
 }
