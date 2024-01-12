@@ -4,7 +4,7 @@ export function Header() {
       <a href=''>Gabriel Pacheco</a>
       <ul className='flex gap-x-10 '>
         <li>
-          <a href="">Sobre mim</a>
+          <a href="#about">Sobre mim</a>
         </li>
         <li>
           <a href="">Projetos</a>
