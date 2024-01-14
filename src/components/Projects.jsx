@@ -4,9 +4,9 @@ import { repositoriesData } from "../utils/repositoriesData";
 export function Projects() {
   return (
     <div className='flex justify-center pb-20'>
-      <div className='flex flex-col w-[1140px] '>
+      <div className='flex flex-col w-[1140px]'>
         <h1 className='mb-16 text-white text-center mt-24 font-archivo text-4xl font-semibold'>Projetos <span className='text-green'>.</span></h1>
-        <div className='flex flex-wrap justify-between'>
+        <div className='flex flex-wrap'>
           {repositoriesData.map((repository) => (
             <div
               key={repository.id}

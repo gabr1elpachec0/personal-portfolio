@@ -9,10 +9,10 @@ export function Experiences() {
   }
 
   return (
-    <div className='mt-20 flex items-center justify-center'>
-      <div className='flex flex-col justify-start w-[1140px] h-[552px]'>
+    <div className='mt-20 flex justify-center'>
+      <div className='flex flex-col w-[1140px] h-[552px]'>
         <h1 className='mt-20 mb-16 text-white font-archivo text-4xl font-semibold'>Experiências <span className='text-green'>.</span></h1>
-        <div className='flex justify-start'>
+        <div className='flex'>
           <div className='flex flex-col'>
             {
               experiencesData.map((experience, index) => (

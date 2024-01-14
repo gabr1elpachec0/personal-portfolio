@@ -1,6 +1,8 @@
 import { About } from './components/About';
 import { Experiences } from './components/Experiences';
+import { Footer } from './components/Footer';
 import { Header } from './components/Header';
+import { Knowledge } from './components/Knowledge';
 import { Main } from './components/Main';
 import { Projects } from './components/Projects';
 import './styles/global.css';
@@ -23,6 +25,12 @@ function App() {
       <section className='bg-firstBackground'>
         <Projects />
       </section>
+      <section className='bg-secondBackground'>
+        <Knowledge />
+      </section>
+      <footer>
+        <Footer />
+      </footer>
     </>
   )
 }
