@@ -14,13 +14,13 @@ function App() {
       <main>
         <Main />
       </main>
-      <section id='about'  className=''>
+      <section className=''>
         <About />
       </section>
-      <section id='experiences' className='bg-secondBackground'>
+      <section className='bg-secondBackground'>
         <Experiences />
       </section>
-      <section id='projects' className='bg-firstBackground'>
+      <section className='bg-firstBackground'>
         <Projects />
       </section>
     </>

@@ -9,8 +9,10 @@ export default {
       colors: {
         firstBackground: '#111111',
         secondBackground: '#151515',
-        // purple: '#986DFF',
+        purple: '#986DFF',
         green: '#04D361',
+        lightGreen: '#A6FB98',
+        red: '#E51D37',
       },
       fontFamily: {        
         archivo: ['Archivo', 'sans-serif'],
