@@ -3,7 +3,7 @@ import { repositoriesData } from "../utils/repositoriesData";
 
 export function Projects() {
   return (
-    <div className='flex justify-center pb-20'>
+    <div className='flex flex-col items-center pb-20'>
       <div className='flex flex-col w-[1140px]'>
         <h1 className='mb-16 text-white text-center mt-24 font-archivo text-4xl font-semibold'>Projetos <span className='text-green'>.</span></h1>
         <div className='flex flex-wrap'>
@@ -27,12 +27,13 @@ export function Projects() {
                   target="_blank" 
                   href={repository.link} 
                   rel="noreferrer" 
-                  className={clsx('font-archivo text-xl', {
-                    'text-orange-700': repository.id === 1,
-                    'text-purple': repository.id === 2,
-                    'text-white': repository.id === 3,
-                    'text-lightGreen': repository.id === 4,
-                    'text-red': repository.id === 5,
+                  id='leftForward'
+                  className={clsx('font-archivo text-xl relative', {
+                    'text-orange-700 forwardOrange': repository.id === 1,
+                    'text-purple forwardPurple': repository.id === 2,
+                    'text-white forwardWhite': repository.id === 3,
+                    'text-lightGreen forwardLightGreen': repository.id === 4,
+                    'text-red forwardRed': repository.id === 5,
                   })}
                 >
                   {repository.click}
@@ -41,8 +42,8 @@ export function Projects() {
             </div>
           ))}
         </div>
-        <a href="" className='text-center font-archivo text-green text-xl mt-4'>Repositórios no GitHub</a>
       </div>
+      <a href="" id='leftForward' className='forwardGreen text-center font-archivo text-green text-xl mt-4 leftForward relative'>Repositórios no GitHub</a>
     </div>
   );
 }

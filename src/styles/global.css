@@ -17,10 +17,54 @@ a.header:hover {
   color: white;
 }
 
+a:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  transition: 0.6s;
+}
+
+a#leftForward:before {
+  right: 0;
+}
+
+a#leftForward:hover:before {
+  width: 100%;
+  left: 0;
+}
+
+a.forwardGreen:hover:before {
+  background-color: #04D361
+}
+
+a.forwardOrange:hover:before {
+  background-color: #C2410C
+}
+
+a.forwardPurple:hover:before {
+  background-color: #986DFF;
+}
+
+a.forwardWhite:hover:before {
+  background-color: white;
+}
+
+
+a.forwardLightGreen:hover:before {
+  background-color: #A6FB98;
+}
+
+a.forwardRed:hover:before {
+  background-color: #E51D37;
+}
+
 button.experience {
   background-color: #111111;
   padding-left: 48px;
-  padding-right: 128px;
+  padding-right: 80px;
+  width: 250px;
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: start;
