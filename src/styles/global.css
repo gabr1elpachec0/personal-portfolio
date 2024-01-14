@@ -10,8 +10,26 @@
 ::-webkit-scrollbar-thumb {
   background-color: #04D361;
   width: auto;
+  border-radius: 4px;
 }
 
-a:hover {
+a.header:hover {
   color: white;
+}
+
+button.experience {
+  background-color: #111111;
+  padding-left: 48px;
+  padding-right: 128px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: start;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 600;
+  font-size: large;
+}
+
+button.experience.active {
+  border-left: solid 4px #04D361;
+  color: #04D361;
 }

@@ -1,19 +1,19 @@
 export function Header() {
   return (
     <nav className='flex items-center justify-around mt-10 font-archivo text-zinc-400'>
-      <a href=''>Gabriel Pacheco</a>
+      <a href='' className='header'>Gabriel Pacheco</a>
       <ul className='flex gap-x-10 '>
         <li>
-          <a href="#about">Sobre mim</a>
+          <a href="#about" className='header'>Sobre mim</a>
         </li>
         <li>
-          <a href="">Projetos</a>
+          <a href="#experiences" className='header'>Experiências</a>
         </li>
         <li>
-          <a href="">Experiências</a>
+          <a href="#projects" className='header'>Projetos</a>
         </li>
       </ul>
-      <a href="">Contato</a>
+      <a href="" className='header'>Contato</a>
     </nav>
   )
 }
