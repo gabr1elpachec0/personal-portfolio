@@ -7,13 +7,13 @@ export function Knowledge() {
   const [ knowledge, setKnowledge ] = useState(initialContent);
   
   return (
-    <div className='w-[350px] flex flex-col items-start mb-20'>
+    <div className='w-[350px] lg:w-[1090px] flex flex-col items-start mb-20 lg:items-center'>
       <h1 className="mt-20 text-white font-archivo text-4xl font-semibold">
           Conhecimentos <span className="text-green">.</span>
       </h1>
-      {/* <p className="text-zinc-400 text-lg font-archivo h-[100px] text-center sm:none ">{knowledge}</p> */}
-      <nav className="mt-16">
-        <div className="grid grid-cols-2 gap-x-5 gap-y-3">
+      <p className="knowledgeContent text-zinc-400 text-lg font-archivo h-[100px] text-center sm:none mt-10">{knowledge}</p>
+      <nav className="mt-16 lg:mt-4">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-x-5 gap-y-3">
           {
             knowledgeData.map((knowledge) => (
             <div

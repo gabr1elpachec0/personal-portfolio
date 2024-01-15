@@ -20,4 +20,11 @@ export const experiencesData = [
     content: '',
     date: ''
   },
+  {
+    id: 4,
+    title: 'Mais coisas estão por vir',
+    label: 'Em andamento...',
+    content: '',
+    date: ''
+  },
 ]

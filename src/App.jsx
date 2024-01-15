@@ -17,18 +17,23 @@ function App() {
       <main>
         <Main />
       </main>
+      <hr className='border-zinc-700 lg:hidden mb-20'/>
       <section className='flex flex-col items-center mb-20'>
         <About />
       </section>
-      <section className='bg-secondBackground flex flex-col items-center mb-20'>
+      <hr className='border-zinc-700 lg:hidden'/>
+      <section className='bg-secondBackground flex flex-col items-center'>
         <Experiences />
       </section>
-      <section className='flex flex-col items-center mb-20'>
+      <hr className='border-zinc-700 lg:hidden'/>
+      <section className='flex flex-col items-center mb-20 mt-20'>
         <Projects />
       </section>
+      <hr className='border-zinc-700 lg:hidden'/>
       <section className='bg-secondBackground flex flex-col items-center'>
         <Knowledge />
       </section>
+      <hr className='border-zinc-700 lg:hidden'/>
       <footer>
         <Footer />
       </footer>

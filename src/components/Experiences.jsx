@@ -10,10 +10,10 @@ export function Experiences() {
   }
 
   return (
-   <div className='w-[350px] h-[850px]'>
+   <div className='w-[350px] h-[850px] lg:h-[600px] lg:w-[1090px] mb-20'>
     <h1 className='mt-20 mb-16 text-white font-archivo text-4xl font-semibold'>Experiências <span className='text-green'>.</span></h1>
-    <div className=''>
-      <div>
+    <div className='lg:flex'>
+      <div className='lg:w-[500px]'>
         {
           experiencesData.map((experience, index) => (
             <button
@@ -28,7 +28,7 @@ export function Experiences() {
       </div>
       {
         activeButton !== null && (
-          <div className='mt-10'>
+          <div className='w-full mt-10 lg:mt-0'>
             <h1 className='font-medium text-2xl font-archivo'>{experiencesData[activeButton].title}</h1>
             <p className='text-zinc-400 font-archivo text-lg mt-6'>{experiencesData[activeButton].date}</p>
             <h2 className='font-archivo text-xl text-green mt-6'>{experiencesData[activeButton].label}</h2>

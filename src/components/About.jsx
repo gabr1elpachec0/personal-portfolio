@@ -1,11 +1,11 @@
 export function About() {
   return (
-    <div className='bg-secondBackground border-2 border-zinc-800 rounded'>
-      <div className='flex flex-col items-center justify-center px-10 py-10'>
+    <div className='bg-secondBackground border-2 border-zinc-800 rounded lg:w-[1090px]'>
+      <div className='flex flex-col items-center justify-center px-6 py-6 lg:flex-row'>
         <div>
-          <img src="src/assets/profile.png" alt="" className='w-[300px] h-[350px] border-2 border-none rounded'></img>
+          <img src="src/assets/profile.png" alt="" className='w-[300px] h-[350px] lg:w-[400px] lg:h-[480px] border-2 border-none rounded'></img>
         </div>
-        <div className='w-[300px]'>
+        <div className='w-[300px] lg:ml-10 lg:w-[600px]'>
           <h2 className='text-green font-archivo text-lg mt-5'>Quem sou</h2>
           <h1 className='text-white font-archivo text-4xl font-semibold mt-3'>Gabriel Pacheco</h1>
           <h2 className='text-white font-archivo text-lg mt-3'>Desenvolvedor Frontend & Backend</h2>
@@ -15,8 +15,7 @@ export function About() {
             Meu nome é Gabriel Gomes Pacheco, sou desenvolvedor fullstack, formado técnico em informática para internet pelo IFSul Gravataí e continuo desenvolvendo minhas habilidades
             de design, frontend e backend. No momento estou cursando Análise e Desenvolvimento de Sistemas. Sou apaixonado por layouts simples e elegantes. 
           </p>
-        </div>
-        <div className='w-[300px] mt-14'>
+          <div className='w-[300px] mt-14'>
           <nav>
             <ul className='flex flex-wrap items-center justify-start gap-x-3 gap-y-3'>
               <a target="_blank" href="https://www.instagram.com/ggpac_/" className='bg-firstBackground p-5 border-2 border-zinc-800 rounded-lg hover:border-green' rel="noreferrer">
@@ -37,6 +36,8 @@ export function About() {
             </ul>
           </nav>
         </div>
+        </div>
+        
       </div>
     </div>
   )
