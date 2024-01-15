@@ -86,3 +86,7 @@ button.experience.active {
     display: none;
   }
 }
+
+::selection {
+  background-color: #252529;
+}

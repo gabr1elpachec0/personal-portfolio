@@ -17,7 +17,7 @@ export const repositoriesData = [
     id: 3,
     title: 'MyStock',
     content: 'Aplicação para estoques feita com EJS, Node.js, Express.js e MySQL.',
-    link: 'Visualizar projeto',
+    link: 'https://github.com/gabr1elpachec0/mystock',
     click: 'Visualizar projeto'
   },
   {
