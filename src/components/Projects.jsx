@@ -28,12 +28,12 @@ export function Projects() {
                 href={repository.link} 
                 rel="noreferrer" 
                 id='leftForward'
-                className={clsx('font-archivo text-xl relative', {
-                  'text-orange-700 forwardOrange': repository.id === 1,
-                  'text-purple forwardPurple': repository.id === 2,
-                  'text-white forwardWhite': repository.id === 3,
-                  'text-lightGreen forwardLightGreen': repository.id === 4,
-                  'text-red forwardRed': repository.id === 5,
+                className={clsx('font-archivo text-xl', {
+                  'text-orange-700 hover:opacity-50 duration-500': repository.id === 1,
+                  'text-purple hover:opacity-50 duration-500': repository.id === 2,
+                  'text-white hover:opacity-50 duration-500': repository.id === 3,
+                  'text-lightGreen hover:opacity-50 duration-500': repository.id === 4,
+                  'text-red hover:opacity-50 duration-500': repository.id === 5,
                 })}
               >
                 {repository.click}
@@ -43,7 +43,7 @@ export function Projects() {
         ))}
       </div>
       <div className='text-center mt-4'>
-        <a target="_blank" href="https://github.com/gabr1elpachec0?tab=repositories" id='leftForward' className='forwardGreen font-archivo text-green text-xl mt-4 leftForward relative' rel="noreferrer">Repositórios no GitHub</a>
+        <a target="_blank" href="https://github.com/gabr1elpachec0?tab=repositories" id='leftForward' className='forwardGreen font-archivo text-green hover:opacity-50 duration-500 text-xl mt-4 leftForward' rel="noreferrer">Repositórios no GitHub</a>
       </div>
     </div>
   );

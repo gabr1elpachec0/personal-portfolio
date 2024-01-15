@@ -39,27 +39,6 @@ a.forwardGreen:hover:before {
   background-color: #04D361
 }
 
-a.forwardOrange:hover:before {
-  background-color: #C2410C
-}
-
-a.forwardPurple:hover:before {
-  background-color: #986DFF;
-}
-
-a.forwardWhite:hover:before {
-  background-color: white;
-}
-
-
-a.forwardLightGreen:hover:before {
-  background-color: #A6FB98;
-}
-
-a.forwardRed:hover:before {
-  background-color: #E51D37;
-}
-
 button.experience {
   background-color: #111111;
   padding-left: 48px;
