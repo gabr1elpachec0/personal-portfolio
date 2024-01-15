@@ -3,7 +3,7 @@ export function About() {
     <div className='bg-secondBackground border-2 border-zinc-800 rounded lg:w-[1090px]'>
       <div className='flex flex-col items-center justify-center px-6 py-6 lg:flex-row'>
         <div>
-          <img src="https://private-user-images.githubusercontent.com/97643968/296845177-e1bc6277-1acf-4f0e-8e81-733082f3da28.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDUzNDUxNTYsIm5iZiI6MTcwNTM0NDg1NiwicGF0aCI6Ii85NzY0Mzk2OC8yOTY4NDUxNzctZTFiYzYyNzctMWFjZi00ZjBlLThlODEtNzMzMDgyZjNkYTI4LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAxMTUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMTE1VDE4NTQxNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWQ4MjNlMjFiOTM3YjkwODFmN2RkNDQ5ZDBmOWUxZTYxNDU2ZDc2MTgwYTY2MWZjOWYxZTMzYzM2YWNiZWU1ZTEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.36DD2gpvwbXcaTA_OaJezo2jwMQIyHLsbNJzAW1JPPE" alt="profilePicture" className='w-[300px] h-[350px] lg:w-[400px] lg:h-[480px] border-2 border-none rounded' />
+          <img src="profile.png" alt="profilePicture" className='w-[300px] h-[350px] lg:w-[400px] lg:h-[480px] border-2 border-none rounded' />
         </div>
         <div className='w-[300px] lg:ml-10 lg:w-[600px]'>
           <h2 className='text-green font-archivo text-lg mt-5'>Quem sou</h2>
