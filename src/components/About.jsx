@@ -3,7 +3,7 @@ export function About() {
     <div className='bg-secondBackground border-2 border-zinc-800 rounded lg:w-[1090px]'>
       <div className='flex flex-col items-center justify-center px-6 py-6 lg:flex-row'>
         <div>
-          <img src="public/profile.png" alt="" className='w-[300px] h-[350px] lg:w-[400px] lg:h-[480px] border-2 border-none rounded' />
+          <img src="./src/public/profile.png" alt="profilePicture" className='w-[300px] h-[350px] lg:w-[400px] lg:h-[480px] border-2 border-none rounded' />
         </div>
         <div className='w-[300px] lg:ml-10 lg:w-[600px]'>
           <h2 className='text-green font-archivo text-lg mt-5'>Quem sou</h2>
