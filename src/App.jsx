@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { About } from './components/About';
 import { Experiences } from './components/Experiences';
 import { Footer } from './components/Footer';
@@ -16,16 +17,16 @@ function App() {
       <main>
         <Main />
       </main>
-      <section className=''>
+      <section className='flex flex-col items-center mb-20'>
         <About />
       </section>
-      <section className='bg-secondBackground'>
+      <section className='bg-secondBackground flex flex-col items-center mb-20'>
         <Experiences />
       </section>
-      <section className='bg-firstBackground'>
+      <section className='flex flex-col items-center mb-20'>
         <Projects />
       </section>
-      <section className='bg-secondBackground'>
+      <section className='bg-secondBackground flex flex-col items-center'>
         <Knowledge />
       </section>
       <footer>
