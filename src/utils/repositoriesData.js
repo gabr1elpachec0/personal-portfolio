@@ -30,8 +30,8 @@ export const repositoriesData = [
   {
     id: 5,
     title: 'API Movies',
-    content: 'API para manipular filmes feita com Node.js, Express.js e SQLite.',
-    link: 'https://github.com/gabr1elpachec0/API-Rest-Movies',
+    content: 'API para manipular filmes feita com TypeScript, Fastify e SQLite.',
+    link: 'https://github.com/gabr1elpachec0/ubots-api',
     click: 'Visualizar projeto'
   },
   {
