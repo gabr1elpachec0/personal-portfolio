@@ -15,7 +15,7 @@
 
 <h2 id="tech">💻 Technologies</h2>
 
-1. ``VITE``
+1. ``REACT``
 2. ``TAILWINDCSS``
 3. ``JAVASCRIPT``
 
